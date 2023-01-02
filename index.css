@@ -1,0 +1,39 @@
+.flex-container {
+    display: flex;
+}
+
+.main-content {
+    flex: 1.5;
+    background-image: url(background.jpg);
+    height: 100vh;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #363636;
+    text-align: center;
+}
+
+p {
+    color: #dc2f2f;
+    font-family: sans-serif;
+}
+
+input[type=text] {
+    background-color: #fafafa;
+    border: 2px solid #3d3c3c;
+    padding: 5px;
+    box-shadow: 0 0 15px 4px rgba(25, 25, 25, 0.06);
+    border-radius: 10px;
+}
+
+button {
+    appearance: none;
+    padding: 10px;
+    border: none;
+    background-color: #3f51b5;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    
+}
