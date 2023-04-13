@@ -1,28 +1,20 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './Header';
-import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import TinderCards from './TinderCards';
+import Chats from './Chats';
+import './App.css';
+
 
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Router>
-
+      <>
         <Routes>
-          <Route path='/' element={<TinderCards />}>
-          </Route>
-          
+          <Route path="/" element={<TinderCards />} />
+          <Route path="/chats" element={<Chats />} />
         </Routes>
-        {/* Cards */}
-        {/* Buttons below Cards */}
-
-        {/* Chats Screen */}
-        {/* Individual Chats Screen */}
-
-      </Router>
+      </>
     </div>
   );
 }
