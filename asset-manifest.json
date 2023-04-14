@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sinder-/static/css/main.e0212565.css",
+    "main.js": "/sinder-/static/js/main.11d01e0e.js",
+    "static/js/787.eb8d15da.chunk.js": "/sinder-/static/js/787.eb8d15da.chunk.js",
+    "index.html": "/sinder-/index.html",
+    "main.e0212565.css.map": "/sinder-/static/css/main.e0212565.css.map",
+    "main.11d01e0e.js.map": "/sinder-/static/js/main.11d01e0e.js.map",
+    "787.eb8d15da.chunk.js.map": "/sinder-/static/js/787.eb8d15da.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0212565.css",
+    "static/js/main.11d01e0e.js"
+  ]
+}
